@@ -1,0 +1,8 @@
+{
+  "name": "GAME ROOM SETIF",
+  "description": "Boutique spécialisée dans l'univers du gaming à Sétif, Algérie : consoles, jeux vidéo, accessoires, actualités et service de retrait & livraison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

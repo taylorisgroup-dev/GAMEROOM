@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>GAME ROOM SETIF | Boutique Gaming de Référence à Sétif</title>
+    <meta name="description" content="Boutique spécialisée dans l'univers du gaming à Sétif, Algérie : consoles, jeux vidéo, accessoires, actualités et service de retrait & livraison." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GAME ROOM SETIF | Boutique Gaming de Référence à Sétif" />
+    <meta property="og:description" content="Boutique spécialisée dans l'univers du gaming à Sétif, Algérie : consoles, jeux vidéo, accessoires, actualités et service de retrait & livraison." />
+    <meta property="og:site_name" content="GAME ROOM SETIF" />
+    <meta property="og:locale" content="fr_DZ" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GAME ROOM SETIF | Boutique Gaming de Référence à Sétif" />
+    <meta name="twitter:description" content="Boutique spécialisée dans l'univers du gaming à Sétif, Algérie : consoles, jeux vidéo, accessoires, actualités et service de retrait & livraison." />
+
+    <!-- PWA & Mobile Meta Tags -->
+    <meta name="theme-color" content="#0b0d12" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GAME ROOM SETIF" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) for Local Gaming Store -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "GAME ROOM SETIF",
+        "description": "Boutique spécialisée dans l'univers du gaming à Sétif, Algérie : consoles, jeux vidéo, accessoires, actualités et service de retrait & livraison.",
+        "image": "/pwa-512x512.png",
+        "priceRange": "DZD",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sétif",
+          "addressRegion": "Sétif",
+          "addressCountry": "DZ"
+        },
+        "currenciesAccepted": "DZD",
+        "paymentAccepted": "Cash on pickup, Cash on delivery"
+      }
+    </script>
+  </head>
+  <body class="bg-[#f8fafc] text-slate-900 antialiased min-h-screen selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
